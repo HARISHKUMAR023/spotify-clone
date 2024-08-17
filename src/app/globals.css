@@ -31,3 +31,24 @@ body {
     text-wrap: balance;
   }
 }
+/* styles/globals.css or your custom CSS file */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: black; /* Color of the scrollbar track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #8888885a; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #5555551e; /* Color when hovering over the scrollbar thumb */
+}
+.bg-card{
+  background: rgb(82,31,31);
+  background: linear-gradient(176deg, rgba(82,31,31,1) 0%, rgba(90,28,28,0) 100%);
+}
